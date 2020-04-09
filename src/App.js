@@ -1,7 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import TownList from './Components/TownsComponents/TownList';
+import { useSelector, useDispatch } from 'react-redux';
 
 function App() {
   return (
