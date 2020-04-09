@@ -1,6 +1,10 @@
 import { combineReducers } from 'redux';
-import CounterReducer from './CounterReducer';
+import GameReducer from './GameReducer';
+import UserReducer from './UserReducer';
+import TownReducer from './TownReducer';
 
 export default combineReducers({
-    Counter: CounterReducer,
+    Game: GameReducer,
+    Town: TownReducer,
+    User: UserReducer,
 });
