@@ -1,16 +1,19 @@
-.townList{
-  display: grid;
-  grid-template-rows: auto;
-  width: 400px;
-  font-size: small;
+.townList {
+    display: grid;
+    grid-template-rows: auto;
+    width: 400px;
+    font-size: small;
 }
-.townItem{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-items: baseline;
+.townItem {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: baseline;
+}
+.participents {
+    display: grid;
+    grid-template-rows: auto;
+}
 
-}
-.participents{
-  display: grid;
-  grid-template-rows: auto;
+p {
+    margin: 0px;
 }
