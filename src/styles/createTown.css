@@ -3,15 +3,15 @@
     width: 600px;
     display: flex;
     flex-direction: row;
-    /* background-color: red; */
 }
 
 .createTown_selectedBox {
     display: flex;
     flex-direction: row;
-    max-width: 200px;
-    height: 100px;
-    border: 1px solid black;
+    max-width: 300px;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+    padding-top: 0px;
 }
 
 .selectedContact_container {
